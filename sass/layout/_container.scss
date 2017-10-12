@@ -1,0 +1,68 @@
+@import'../utilities/variables';
+
+//TITLE SCREEN
+.cont_logo {
+    text-align: center;
+    position: center;
+    padding: 100px;
+}
+
+//MAIN CONTAINERS
+
+#cont_index, #cont_order_comp, #cont_help, #cont_confirm,#cont_menu {
+	text-align: center;
+	margin:50px;
+	padding:50px;
+}
+
+#cont_index{
+	margin:100px;
+}
+
+#cont_menu {
+	margin-left:50px;
+	margin-right:50px;
+	padding:0px,
+}
+
+//WHITE CONTAINER
+
+#cont_bg {
+	text-align: center;
+	background-color: white;
+	margin:40px;
+}
+
+//MENU 
+
+#cont_menu{
+	padding-top: 200px;
+	padding-bottom:30px;
+}
+
+#cont_bg_confirm{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 40px;
+}
+
+//MENU TITLE CONTAINER
+
+#cont_menu_title {
+	padding:0px;
+	margin:0px;
+	text-align: center;
+}
+
+//ORDER CONFIRMATION CONTAINER 
+
+#cont_confirm {
+	color:black;
+	text-align: center;
+}
+
+//HELP CONTAINER
+
+#cont_help{
+	color:$darkgrey;
+}

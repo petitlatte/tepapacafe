@@ -1,0 +1,152 @@
+<!DOCtype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<title>Te Papa Cafe Menu</title>
+	</head>
+<body>
+
+<header class="header">
+
+	<div id="cont_header"><h1>Menu</h1></div>
+
+<!--MY ORDER BUTTON-->
+	<button id="btn_myorder">My Order</button>
+
+<!--POP UP -->
+
+	<!--MODAL BOX-->
+	<div id="myModal" class="modal"><!--the dark background-->
+				<div class="modal-content"><!--the pop up container-->
+			<span class="close">&times;</span>
+
+				<h1>My Order</h1>
+		<hr>
+		<!--CART-->	
+
+			<div id="main-container">
+		    	<div id="cart">
+            		<div id="CartContainer">
+                		<div id="template" class="product">
+                			<!--Inside the cart-->
+                			<h3 class="product_title left" ></h3>
+							<button class="remove">-</button>
+			                		<p class="product_quantity center"></p>
+							<button class="add">+</button>
+							<!--end cart-->
+			                <p class="sub_price right"></p>
+                     <p><span class="product_price hidden"></span></p>
+                </div><!--template div-->
+		</div><!--CartContainer div-->
+	</div> <!--cart div-->
+				                <hr>
+
+<p>Total $<span class="priceCount"></span></p>
+<p>No. of items=<span class="cartCount"></span></p>
+<a href="desserts.html"><button class="btn_cancel">Back to menu</button></a>
+<a href="confirmorder.html"><button class="btn_proceed">Proceed to Checkout</button></a>
+<br><br>
+<button id="clear">Clear Cart</button>
+</div> <!--main-container div-->
+</div><!--modal-content div-->
+</div><!--myModal div-->
+
+
+<!--HELP-->
+
+<a href="help.html"><button id="btn_help">Call Staff</button></a>
+<!--NAV BAR-->
+<div class="topnav" id="mytopnav">
+<a href="mainmenu.html">Main</a>
+<a href="sidedishes.html">Side Dishes</a>
+<a href="desserts.html">Desserts</a>
+<a href="drinks.html">Drinks</a>
+<a href="kidsmenu.html">Kids Menu</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+</header>
+
+<!--END OF HEADER-->
+
+
+
+
+
+
+
+<!--BODY-->
+
+	<!--MENU NAME-->
+
+<div id="cont_bg">
+	<div id="cont_menu">
+			<div id="cont_menu_title">
+		<img src="img/sidedishes.png" width="85px">
+		<h2>Side Dishes</h2>
+		<h3>taha rihi</h3>
+	</div>
+<hr>
+
+		<!--MENU ITEM-->
+
+		<div class="product">
+    	<h3 class="product_title">Bowl of fries or kumura chips</h3>
+    	<p class="product_description">Served with kawakawa mayonnaise</p>
+		<p>$<span class="product_price">5.50</span></p>
+	<button class="add">Add to Order</button>
+</div>
+
+<hr>
+
+		<div class="product">
+    	<h3 class="product_title">Salads</h3>
+		<p>$<span class="product_price">7.90</span></p>
+		<p class="product_description">Roasted pumpkin, feta and walnut salad<br>Caesar salad</p>
+	<button class="add">Add to Order</button>
+</div>
+
+<hr>
+	
+		<div class="product">
+    	<h3 class="product_title">Vegetable focaccia melt</h3>
+    	<h4>Recommended</h4>
+		<p>$<span class="product_price">8.90</span></p>
+		<p class="product_description">Roast vegetables, basil pesto and cheese</p>
+	<button class="add">Add to Order</button>
+</div>
+
+<hr>
+
+	<div class="product">
+    	<h3 class="product_title">Tandoori chicken roti wrap</h3>
+		<p>$<span class="product_price">9.90 </span></p>
+	<button class="add">Add to Order</button>
+</div>
+</div>
+</div><!--cont_bg div-->
+
+	<!--END OF MENU-->
+
+<!--END OF BODY-->
+
+
+<!--FOOTER-->
+
+	<footer class="footer">
+		<p>Menu and prices subject to change March 2015</p>
+		<p> Created by Lisa Pearson | For Educational Purposes only </p>
+	</footer>
+
+	<!--SCRIPT-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/javascript.js"></script>
+<script src="js/cartFunction.min.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

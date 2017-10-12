@@ -1,0 +1,146 @@
+//LOGO BUTTON
+@import'../utilities/variables';
+
+//INDEX TEPAPA BUTTON
+
+.btn_index {
+    animation: fadeIn 1.25s infinite alternate;
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0.9; }
+  to {opacity: 0.4} 
+}
+
+
+//MY ORDER BUTTON
+
+#btn_myorder {
+    font-size: 20px;
+    font-family: abel,sans-serif;
+    height:75px;
+    width:75px;
+    background-color:$darkgrey;
+    color:white;
+    border:none;
+    margin: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#btn_myorder:hover{
+    color:$green;
+}
+
+
+//HELP BUTTON
+
+#btn_help {
+    font-family:abel,sans-serif;
+    font-size: 20px;
+    background-color: $green;
+    color:white;
+    height: 75px;
+    width:75px;
+    border:none;
+    margin:10px;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:100px;
+}
+
+#btn_help:hover{
+    color:$darkgrey;
+}
+
+
+
+
+//PROCEED TO CHECK OUT BUTTON
+
+.btn_proceed {
+    background-color: $green;
+        font-family: abel,sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+//ADD AND REMOVE BUTTON
+
+.add,.remove{
+    background-color: $green;
+    font-family: abel,sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.add:active, .remove:active {
+  background-color:$darkgrey ;
+}
+
+
+//BACK TO MENU BUTTON
+
+.btn_cancel {
+    background-color: $darkgrey;
+    font-family: abel,sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+//CLEAR BUTTON 
+
+#clear {
+    background-color: white;
+    color:$darkgrey !important;
+    font-family: abel,sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.btn_startorder{
+    background-color: white;
+    color:$darkgrey !important;
+    font-family: abel,sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

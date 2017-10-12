@@ -1,0 +1,14 @@
+@import '../utilities/variables';
+
+.header {
+	background-color:$bgcolor; 
+	width:100%;
+	top:0;
+	position:fixed;
+	text-align: center;
+}
+
+.header h1{
+	color:#333333;
+	text-align: center;
+}

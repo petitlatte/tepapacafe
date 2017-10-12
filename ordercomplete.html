@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<title>Order complete!</title>
+		<style>html body {background-color: #67a943;}</style>
+</head>
+	<body>
+		<div id="cont_order_comp">
+<h1>Order complete!</h1>
+<h3>Enjoy your meal!</h3>
+
+<div id="progresscontainer">
+<div id="barcontainer">
+<div id="progressbar">
+  <div id="bar"></div>
+</div>
+</div>
+<p>Estimated waiting time: 5 minutes</p>
+<button onclick="move()" class="btn_startorder">Start order</button>
+<br><br>
+</div>
+<a href="mainmenu.html"><button class="btn_cancel">Back to menu</button></a>
+</div>
+<script>
+
+function move() {
+    var elem = document.getElementById("bar"); 
+    var width = 1;
+    var id = setInterval(frame, 700);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+        }
+    }
+}
+
+</script>
+
+
+	</body>
+	</html>

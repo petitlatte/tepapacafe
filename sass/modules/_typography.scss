@@ -1,0 +1,60 @@
+@import'../utilities/variables';
+
+//DEFAULT FONT SETTINGS
+
+h1 {
+	text-align:center;
+	color:$green;
+	font-family: lobster,sans-serif;
+	font-size:72px;
+}
+
+h2{
+	font-family:lobster,sans-serif;
+	color: $green;
+	font-size: 48px;
+	margin:10px;
+}
+
+h3{
+	font-size:20px;
+	color:black;
+}
+
+h4{
+	color: $green;
+}
+
+h2,h3,h4,h5{
+	font-family: Abel,sans-serif;
+}
+
+p{
+	font-family: Abel,sans-serif;
+	font-size:16px;
+	margin-top: 0;
+}
+
+//CUSTOM FONT SETTINGS
+
+#cont_index h2{
+	font-family:lobster,sans-serif;
+	color: white;
+}
+
+#cont_index p{
+	color:white;
+	opacity:0.5;
+}
+
+#cont_help h1{
+	color:white;
+}
+
+#cont_order_comp h1{
+	color: white;
+	text-align: center;
+	margin:20px;
+	padding: 50px;
+}
+

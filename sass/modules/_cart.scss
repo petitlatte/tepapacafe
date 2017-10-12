@@ -1,0 +1,48 @@
+//CART//
+@import'../utilities/variables';
+
+#template {
+		display: none;
+	}
+
+.hidden {
+	display:none;
+}
+
+h3.left {
+	font-size:16px;
+	color:$darkgrey;
+	margin:0px;
+	float: left;
+}
+
+p.center {
+	float:center;
+	   display:inline-block;
+}
+
+p.right {
+	float:right;
+}
+
+p .totalright{
+	float:right;
+}
+
+#CartContainer.add {
+	margin:0px;
+}
+
+.remove{
+	margin:0px;
+}
+
+.sub_price p{
+	margin-bottom:0px
+} 
+
+#CartContainer {
+	margin:20px;
+	position:center;
+}
+

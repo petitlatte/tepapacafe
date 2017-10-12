@@ -1,0 +1,41 @@
+@import 'base/base';
+//Containers of the website
+@import 'layout/container';
+//footer
+@import 'layout/footer';
+//header
+@import 'layout/header';
+//buttons
+@import 'modules/buttons';
+//cart
+@import 'modules/cart';
+//navigation bar styling
+@import 'modules/nav';
+//modal box
+@import'modules/modal';
+//font and typefaces
+@import 'modules/typography';
+//changing states
+@import 'state/mediaqueries';
+//variables list
+@import'utilities/variables';
+//mixin list
+@import'utilities/mixin';
+
+#barcontainer {
+    margin:20px;
+}
+
+#progressbar{
+    width: 100%;
+    background-color: white;
+}
+#bar {
+    width: 1%;
+    height: 30px;
+    background-color: $darkgrey;
+    font-family: abel,sans-serif;
+    color: white;
+    height: 20px;
+    text-align: left;
+}
